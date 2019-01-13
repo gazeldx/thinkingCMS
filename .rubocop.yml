@@ -1,0 +1,15 @@
+# Default values of rubocop:
+#   https://github.com/rubocop-hq/rubocop/blob/master/config/default.yml
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/Documentation:
+  Enabled: false
+
+MixinUsage:
+  Exclude:
+    - 'bin/*'
