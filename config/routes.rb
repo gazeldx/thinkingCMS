@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get 'home/index'
 
   resources :writers
+
+  resources :books
 end
