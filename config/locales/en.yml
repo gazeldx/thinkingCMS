@@ -30,4 +30,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  site:
+    name: "Site Name"
+
+  home:
+    banner_title: "Title of a longer featured blog post"
+    banner_desc: "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents."
+    banner_link: "Continue reading"
+
+  activerecord:
+    errors:
+      full_messages:
+        format: "%{attribute} %{message}"
+
+#      messages:
+#        <<: *errors_messages
+#      template:
+#        <<: *errors_template
+#    attributes:
